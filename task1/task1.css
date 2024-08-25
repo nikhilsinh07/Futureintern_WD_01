@@ -1,0 +1,225 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: rgb(230, 230, 169);
+}
+header {
+  background-image: url("mainbg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 5px black;
+}
+.header {
+  display: inline-flex;
+  position: relative;
+  left: 60%;
+  top: 10px;
+}
+
+.inline {
+  display: inline-flex;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 5px;
+}
+.logo {
+  font-family: fantasy;
+  font-size: 50px;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.a {
+  color: rgb(0, 0, 0);
+  padding: 2px 5px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  left: 5px;
+  font-size: 30px;
+  margin-top: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0px 5px;
+  font-weight: 800;
+  height: fit-content;
+  width: fit-content;
+}
+.a:hover {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+.title1 {
+  position: relative;
+  color: rgb(240, 0, 0);
+  font-size: 60px;
+  font-family: math;
+  left: 100px;
+  top: 300px;
+}
+.title2 {
+  position: relative;
+  font-size: 30px;
+  left: 100px;
+  top: 300px;
+  width: 500px;
+}
+.box {
+  margin: 20px 0px;
+}
+.box1 {
+  width: 100%;
+  height: 300px;
+  display: inline-flex;
+  background-image: url("boxbg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.box2 {
+  display: inline-flex;
+
+  width: 100%;
+  height: 300px;
+  background-image: url("boxbg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.box3 {
+  width: 100%;
+  height: 300px;
+  background-image: url("boxbg.jpeg");
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.porttext {
+  font-size: 50px;
+  position: relative;
+  width: auto;
+  left: 60px;
+  top: px;
+  font-family: brolian;
+  height: fit-content;
+}
+.temptext {
+  font-size: 50px;
+  position: relative;
+  width: auto;
+  left: 250px;
+  top: px;
+  font-family: brolian;
+  height: fit-content;
+}
+.textfortemp {
+  margin-left: 00px;
+  font-size: 25px;
+  height: fit-content;
+  width: 400px;
+  position: relative;
+  font-family: cursive;
+  top: 90px;
+  right: 120px;
+}
+.textforcalc {
+  margin-left: 00px;
+  font-size: 25px;
+  height: fit-content;
+  width: 400px;
+  position: relative;
+  font-family: cursive;
+  top: 90px;
+  left: 60px;
+}
+.textforportfolio {
+  margin-left: 130px;
+  font-size: 25px;
+  width: 400px;
+  position: relative;
+  font-family: cursive;
+  top: 70px;
+  right: 150px;
+}
+.caltext {
+  font-size: 50px;
+  position: relative;
+  width: auto;
+  left: 150px;
+  top: px;
+  font-family: brolian;
+  height: fit-content;
+}
+.btn {
+  height: 70px;
+  position: relative;
+  font-size: 30px;
+  border-radius: 20px;
+  width: 70px;
+  left: 40%;
+  top: 40%;
+  border: 2px solid black;
+  background-color: transparent;
+}
+.btn1 {
+  height: 70px;
+  position: relative;
+  font-size: 30px;
+  border-radius: 20px;
+  width: 70px;
+  left: 31%;
+  top: 40%;
+  border: 2px solid black;
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+}
+.btn1:hover {
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+}
+.footer-content {
+  display: flex;
+}
+.about-section {
+  color: rgb(255, 253, 253);
+  margin: 20px 0px;
+  font-size: 25px;
+}
+footer {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(49, 43, 43);
+  float: bottom;
+}
+#footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.hidden {
+  display: none;
+}
+.menu {
+  width: 30%;
+  height: 100%;
+  background-color: #020202;
+}
